@@ -1,9 +1,21 @@
 function isPalindrome(word) {
   // Write your algorithm here
+const palindrome = word.toLowerCase()
+const palindrome2 = word.toLowerCase().split('').reverse().join('')
+if(palindrome === palindrome2){
+  return true
 }
+else{
+  return false
+}
+}
+
 
 /* 
   Add your pseudocode here
+  input -> if: word is palindrome return true
+  else: word isnt palindrome return false
+  return result
 */
 
 /*
